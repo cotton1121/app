@@ -29,13 +29,13 @@ footer {
 }
 
 div.grid1 {
-	background-color: var(--back_color);
+	background-color: green;
 	animation-name: ani_grid1;
     animation-duration: 4s;
 }
 
 div.grid2 {
-	background-color: green;
+	background-color: var(--back_color);
 	animation-name: ani_grid2;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
