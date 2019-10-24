@@ -1,5 +1,5 @@
 :root {
-	--back_color: red; /* Default value */
+	--back_color: rgb(178, 169, 224); /* Default value */
 	--heartbeat: 0s; /* Default value */
 }
 
