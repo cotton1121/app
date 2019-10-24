@@ -43,6 +43,9 @@ div.grid2 {
 
 div.grid3 {
 	background-color: var(--back_color);
+	animation-name: ani_grid3;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 div.grid4 {
@@ -62,6 +65,17 @@ div.grid4 {
 	60% {background-color: red;}
 	80% {background-color: blue;}
 	100% {background-color: green;}
+}
+
+@keyframes ani_grid3{
+	from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+	0% {background-color: rgb(170, 41, 41);}
+	20% {background-color: rgb(69, 196, 69);}
+	40% {background-color: rgb(143, 143, 27);}
+	60% {background-color: rgb(199, 86, 86);}
+	80% {background-color: rgb(53, 53, 241);}
+	100% {background-color: rgb(48, 214, 48);}
 }
 
 .fas {
