@@ -16,7 +16,7 @@
         jQuery(document).ready(function(){
             $.ajax({
                 type: "GET",
-                url: "健康類.csv",
+                url: "123.json",
                 dataType: "json",
                 async: true,
                 success: function(arr) {
@@ -28,8 +28,8 @@
             
                         for(i = 0; i < arr.length; i++) {
                             out += '<tr><th scope="row">' + i + '</th><td>' +
-                            arr[i].title + "</td><td>" +
-                            arr[i].sourceWebName + "</td><td>(" +
+                            arr[i].squadName + "</td><td>" +
+                            arr[i].homeTown + "</td><td>(" +
                             arr[i].startDate + " ~ " + arr[i].endDate + ")</td></tr>";
                         }
                         out += "</tbody></table>";
